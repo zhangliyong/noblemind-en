@@ -1,15 +1,16 @@
 <template lang="pug">
   v-app
     v-app-bar(app, color="primary", dark)
-      v-toolbar-title {{title}}
+      v-toolbar-title Noble Mind
       v-spacer/
-      v-toolbar-items
-        v-btn(href='/', text) Home
-        v-btn(href='/life', text) LIFE ENGINEERING
-        v-btn(href='/ecovillage', text) ECOVILLAGE
-        v-btn(href='/edu', text) EDUCATION
-        v-btn(href='http://www.noblemind.org', text) 中文
-      v-spacer/
+      v-toolbar-items(class="d-none d-md-flex")
+        v-btn(v-for="i in menu" :key="i.title" :href="i.href" text) {{i.title}}
+      v-spacer(class="d-none d-md-flex")/
+      v-app-bar-nav-icon.d-md-none(@click.stop="drawer = !drawer")
+    v-navigation-drawer(v-model="drawer" fixed right temporary)
+      v-list(nav)
+          v-list-item(v-for="i in menu" :key="i.title" :href="i.href")
+            v-list-item-title {{i.title}}
     v-content
       v-container
         nuxt/
@@ -21,25 +22,29 @@
 export default {
   data () {
     return {
-      clipped: false,
       drawer: false,
-      fixed: false,
-      items: [
+      menu: [
         {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/'
+          href: '/',
+          title: 'Home'
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          href: '/life',
+          title: 'LIFE ENGINEERING'
+        },
+        {
+          href: '/ecovillage',
+          title: 'ECOVILLAGE'
+        },
+        {
+          href: '/edu',
+          title: 'EDUCATION'
+        },
+        {
+          href: 'http://www.noblemind.org',
+          title: '中文'
         }
-      ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js'
+      ]
     }
   }
 }
