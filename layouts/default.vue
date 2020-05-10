@@ -46,6 +46,11 @@ export default {
         }
       ]
     }
+  },
+  head () {
+    return {
+      title: 'Noble Mind'
+    }
   }
 }
 </script>
