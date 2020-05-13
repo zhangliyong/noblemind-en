@@ -4,26 +4,26 @@
       h2.display-1.my-5(class="primary--text") Noble Mind
       p.subtitle.my-5(class="secondary--text") Sharing of Wisdom, Ideas, Solutions - for the protection and betterment of Our Mother Earth.
     v-col(cols=12, lg=4, md=6)
-      v-card
+      v-card(class="grow fill-height")
         a(style="text-decoration: none", href="/life")
-          v-img(class="white--text align-end", height="200px", src="/life.png")
+          v-img(class="white--text align-end", height="200px", src="/imgs/life.jpeg")
             v-card-title Life Positioning and Engineering
         v-card-text.secondary--text
-          p Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.
+          p Spiritual purification leading to perception that human and Nature is a community of shared life on earth. May all live a blissful life.
     v-col(cols=12, lg=4, md=6)
-      v-card
+      v-card(class="grow fill-height")
         a(style="text-decoration: none", href="/ecovillage")
-          v-img(class="white--text align-end", height="200px", src="/ecovillage.png")
+          v-img(class="white--text align-end", height="200px", src="/imgs/ecovillage.png")
             v-card-title Ecovillage
         v-card-text.secondary--text
-          p Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.
+          p A paradise on earth | people living in unity and unison with Nature with Zero waste and Zero pollution.
     v-col(cols=12, lg=4, md=6)
-      v-card
+      v-card(class="grow fill-height")
         a(style="text-decoration: none", href="/education")
-          v-img(class="white--text align-end", height="200px", src="/life.png")
+          v-img(class="white--text align-end", height="200px", src="/imgs/education.png")
             v-card-title Education
         v-card-text.secondary--text
-          p Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.
+          p A set of Nature-inspired teaching system; Preservation of children’s spiritual purity.
 </template>
 
 <script>
