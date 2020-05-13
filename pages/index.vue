@@ -3,6 +3,7 @@
     v-col.text-center.my-5(cols=12, lg=10)
       h2.display-1.my-5(class="primary--text") Noble Mind
       p.subtitle.my-5(class="secondary--text") Sharing of Wisdom, Ideas, Solutions - for the protection and betterment of Our Mother Earth.
+      p.my-5 Work in progress.
     v-col(cols=12, lg=4, md=6)
       v-card(class="grow fill-height")
         a(style="text-decoration: none", href="/life")
