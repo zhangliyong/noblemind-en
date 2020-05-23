@@ -32,5 +32,5 @@
         p This is also the perfect lifestyle touted by various sages since 2,500 years. The way of Dao could serve as the bedrock of which beautiful sustainable villages could be built all over the world, that every country could become strong, civilized, modern, democratic, blessed with abundance and harmony.
         p Perfect co-existence between Mankind and Nature is the only way to guarantee perpetual prosperity and the development of Earth.
     v-col(cols=12)
-      p Please feel free to open and download <a href="/files/Qiandaohu  Ecovillage.pptx">this presentation file</a> about our Eco-village.
+      p Please feel free to open and download <a href="https://docs.google.com/presentation/d/1RfJutUBEPjg9JHzJ315sjujL83OjQA4AIGw4auj5dWw/edit?usp=sharing">this presentation file</a> about our Eco-village.
 </template>
