@@ -12,8 +12,7 @@
           v-list-item(v-for="i in menu" :key="i.title" :href="i.href")
             v-list-item-title {{i.title}}
     v-content
-      v-container
-        nuxt/
+      nuxt/
     v-footer(app)
       span &copy; {{ new Date().getFullYear() }}
 </template>

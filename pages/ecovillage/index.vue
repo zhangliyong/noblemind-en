@@ -1,4 +1,5 @@
 <template lang="pug">
+v-container
   v-row.mt-5(justify="center")
     v-col(cols=12)
       h2.text-center.display-1.mb-5.d-none Ecovillage
